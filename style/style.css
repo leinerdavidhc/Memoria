@@ -120,7 +120,7 @@ img{
     }
 
     .contenedor::before{
-        dusplay:none;
+        display:none;
     }
     .tabla{
         width: 100%;
