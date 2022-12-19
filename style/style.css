@@ -134,6 +134,10 @@ img{
         height: 100%;
         padding: 20px;
     }
+
+    .tabla h2{
+      font-size:26px;
+     } 
     .detalles{
         flex-direction: column;
         width: 100%;
