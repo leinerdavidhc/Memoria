@@ -35,7 +35,6 @@ pares = pares.sort(() => {
 
 function bloquearCard() {
   for (let i = 0; i <= 15; i++) {
-    console.log(i);
     bloquearC = document.getElementById(i);
     bloquearC.innerHTML = `<img src="./img/${pares[i]}.png">`;
     bloquearC.disabled = true;
@@ -83,6 +82,7 @@ function destapar(id) {
       yes.play();
       document.getElementById("acierto").innerHTML = `Acirtos: ${aciertos}`;
       if (aciertos == 8) {
+        clearInterval(idInterval);
         win.play();
         document.getElementById(
           "acierto"
