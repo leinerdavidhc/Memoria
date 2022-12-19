@@ -72,7 +72,13 @@
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 1px #000;
+    background-color: #fff;
+    color: #fff;
     display: block;
+}
+
+.grid button:disabled{
+  background-color: rgba(255, 255, 255, 0.396);
 }
 
 .detalles {
@@ -140,3 +146,4 @@ img{
         grid-template-rows: repeat(4,70px);
     }
 }
+
